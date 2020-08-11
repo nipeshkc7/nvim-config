@@ -21,4 +21,8 @@ git clone https://github.com/nipeshkc7/nvim-config ~/.config/nvim/
 
 * GruvBox
 
+### Based on 'The Ultimate Vimrc' configuration
+
+Source: [amix/vimrc](https://github.com/amix/vimrc)
+
 Enjoy ! 
