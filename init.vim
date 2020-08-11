@@ -14,8 +14,11 @@ source ~/.config/nvim/.vim_runtime/vimrcs/extended.vim
 
 colorscheme gruvbox
 
+let vim_markdown_folding_disabled = 1
+
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
