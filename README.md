@@ -20,3 +20,5 @@ git clone https://github.com/nipeshkc7/nvim-config ~/.config/nvim/
 ### ColorScheme
 
 * GruvBox
+
+Enjoy ! 
