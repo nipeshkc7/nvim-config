@@ -5,8 +5,8 @@ set relativenumber
 set number
 set nuw=6
 
-au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+au VimEnter * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' &
+au VimLeave * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock' &
 
 source ~/.config/nvim/.vim_runtime/vimrcs/basic.vim
 source ~/.config/nvim/.vim_runtime/vimrcs/plugins_config.vim
