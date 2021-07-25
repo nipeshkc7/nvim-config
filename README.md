@@ -8,7 +8,10 @@ After you install [NeoVim](https://neovim.io/). Clone this repo using
 ```
 git clone https://github.com/nipeshkc7/nvim-config ~/.config/nvim/
 ```
-
+To install all the plugins, use the following command inside neoVim
+```
+:Pluginstall
+```
 ### Plugins used
 
 * GitGutter
